@@ -10,14 +10,15 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@types/node": "^18",
-    "nuxt": "^3.6.1"
+    "@types/node": "^20",
+    "nuxt": "^3.17.1"
   },
   "dependencies": {
-    "@tresjs/cientos": "^2.1.4",
-    "@tresjs/nuxt": "^1.0.0",
-    "@tresjs/post-processing": "^0.3.0",
-    "@types/three": "^0.152.1",
-    "three": "^0.153.0"
+    "@tresjs/cientos": "^4.3.0",
+    "@tresjs/nuxt": "^3.0.8",
+    "@tresjs/post-processing": "^2.3.1",
+    "@types/three": "^0.176.0",
+    "postprocessing": "^6.37.3",
+    "three": "^0.176.0"
   }
 }

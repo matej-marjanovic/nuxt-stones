@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import { BlendFunction } from 'postprocessing';
+import { BloomPmndrs, EffectComposerPmndrs } from '@tresjs/post-processing'
 const sphereRef = ref()
 
 const { onLoop } = useRenderLoop()
@@ -26,8 +27,8 @@ const bloomParams = reactive({
     <Suspense>
       <Stones />
     </Suspense>
-    <EffectComposer>
-      <Bloom v-bind="bloomParams" />
-    </EffectComposer>
+    <EffectComposerPmndrs>
+      <BloomPmndrs v-bind="bloomParams" />
+    </EffectComposerPmndrs>
   </TresCanvas>
 </template>
